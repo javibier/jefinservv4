@@ -164,7 +164,19 @@ textarea {
    Slogan classes
    ========================================================================== */  
 
-
+#slogan {
+  padding-right: 24px;
+  padding-left: 24px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+  display: flex;
+  font-family: 'Cabin', Georgia, sarif;
+  width: 100%;
+  text-transform: none;
+  letter-spacing: normal;
+  text-shadow: none;
+}
 
 
 
@@ -271,6 +283,10 @@ textarea {
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+
+  margin-right: 0px;
+  margin-left: 0px;
+  max-width: 66%;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
