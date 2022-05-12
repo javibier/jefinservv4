@@ -164,19 +164,27 @@ textarea {
    Slogan classes
    ========================================================================== */  
 
-#slogan {
-  padding-right: 24px;
-  padding-left: 24px;
-  justify-content: flex-start;
-  align-items: center;
-  flex-grow: 1;
-  display: flex;
-  font-family: 'Cabin', Georgia, sarif;
-  width: 100%;
-  text-transform: none;
-  letter-spacing: normal;
-  text-shadow: none;
+
+
+#s-v-1 {
+  display: inline-flex;
+  height: 1000px;
 }
+
+#s-v-2 {
+  display: flex;
+  height: 1000px;
+  margin: 0;
+ }
+
+#s-v-3 {
+  display: flex;
+  height: 1000px;
+  font-size: 42px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
 
 
 
